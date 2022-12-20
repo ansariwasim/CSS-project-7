@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    font-size: 20px;
+    margin-left: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+.active-item{
+    color: red;
+    font-weight: 600;
+}
+
+[alt="logo"]{
+    margin-left: 25px;
+}
+
+/* body{
+  border: 4px solid black;
+  height:90vh;
+  width: 98.5vw;
+} */
+
+
+
+/*      CONTAINER   */
+
+
+
+/* STARTED RIGHT CONTAINER */
+
+
+
+ .right-section{
+    width: 50%;
+    height: 82.5vh;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 63px;
+}  
+
+
+[ alt="headphone"]{
+    height: 450px;
+    position: relative;
+    top: 0px;
+    }
+
+.discount{
+    height: 120px;
+    position: relative;
+    left: 88px;
+    bottom: 78px;
+    z-index: 1;
+}
+
+
+.discount-content{
+    color: white;
+    position: absolute;
+    top: 285px;
+    left: 115px;
+    z-index: 2;
+    
+}
+
+.discount-content h4{
+    font-size: 12px;
+    font-weight:700;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.discount-content h1{
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
+}
+
+#bnt-down{
+    background-color: rgb(238, 78, 20);
+    color: white;
+    border: 2px solid transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 5px;
+    width: 140px;
+    height: 44px;
+    border-radius: 25px;
+    position: absolute;
+    left: 280px;
+    bottom: -35px;
+    
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+
+}
+
+.dot{
+    border: 2px solid transparent;
+    height: 23px;
+    width: 23px;
+    border-radius: 12px;
+    margin-left: 28px;
+    z-index: 4;
+}
+
+.yellow-dot{
+    background-color: yellow;
+}
+
+.tomato-dot{
+    background-color:tomato;
+}
+
+.black-dot{
+    background-color: black;
+}
+
+/* ENDED RIGHT CONTAINER */
+
+
+/*     STATED LEFT CONTAINER    */
+
+.left-section{
+    width: 50vw;
+    height: 89.5vh;
+}
+
+h3{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 50vh;
+    height: 50px;
+}
+
+[alt="circles"]{
+    height: 28px;
+    margin-left: 190px;
+    position: absolute;
+    top: 100px;
+}
+
+.first-heading{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.problem {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    
+}
+
+.sub-headlines{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.sub-headlines h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    position: relative;
+}
+
+span{
+    font-size: 20px;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 3px;  
+}
+
+[alt="plus"]{
+    background-color:orangered;
+    border-radius: 25px;
+    padding: 4px;
+    height: 20px;
+    margin-top: 8px;
+}
+
+.text{
+    color: rgb(170, 166, 166);
+    margin-left: 12px;
+    margin-top: 45px;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.action-btns{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    
+}
+
+.action-btn{
+    background-color: rgb(238, 78, 20);
+    color: white;
+    border: 2px solid transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 5px;
+    width: 140px;
+    height: 44px;
+    border-radius: 25px;
+    margin-right: 18px;
+}
